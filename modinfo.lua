@@ -1,8 +1,8 @@
 -- This information tells other players more about the mod
-name = "Extended Sample Character"
+name = "Architect421's Character"
 description = "A character template for Don't Starve Together. Skins compatible version."
-author = "Dragon Wolf Leo"
-version = "1.2.3" -- This is the version of the template. Change it to your own number.
+author = "Architect421"
+version = "1.0.0" -- This is the version of the template. Change it to your own number.
 
 -- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
 forumthread = "/files/file/950-extended-sample-character/"

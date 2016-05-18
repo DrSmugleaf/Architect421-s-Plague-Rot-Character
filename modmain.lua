@@ -40,19 +40,19 @@ local require = GLOBAL.require
 local STRINGS = GLOBAL.STRINGS
 
 -- The character select screen lines
-STRINGS.CHARACTER_TITLES.esctemplate = "The Sample Character"
-STRINGS.CHARACTER_NAMES.esctemplate = "Esc"
-STRINGS.CHARACTER_DESCRIPTIONS.esctemplate = "*Perk 1\n*Perk 2\n*Perk 3"
+STRINGS.CHARACTER_TITLES.esctemplate = "Plague And Rot"
+STRINGS.CHARACTER_NAMES.esctemplate = "PnG"
+STRINGS.CHARACTER_DESCRIPTIONS.esctemplate = "*It plagues\n*and\n*It rots"
 STRINGS.CHARACTER_QUOTES.esctemplate = "\"Quote\""
 
 -- Custom speech strings
 STRINGS.CHARACTERS.ESCTEMPLATE = require "speech_esctemplate"
 
 -- The character's name as appears in-game 
-STRINGS.NAMES.ESCTEMPLATE = "Esc"
+STRINGS.NAMES.ESCTEMPLATE = "PnG"
 
 AddMinimapAtlas("images/map_icons/esctemplate.xml")
 
 -- Add mod character to mod character list. Also specify a gender. Possible genders are MALE, FEMALE, ROBOT, NEUTRAL, and PLURAL.
-AddModCharacter("esctemplate", "FEMALE")
+AddModCharacter("esctemplate", "NEUTRAL")
 
